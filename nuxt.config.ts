@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
+    // own
+    '@nuxtjs/storybook',
+
   ],
 
   experimental: {
@@ -60,5 +63,10 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+  },
+  storybook: {
+    url: 'http://localhost:6006',
+    storybookRoute: '/__storybook__',
+    port: 6006,
   },
 })
