@@ -15,13 +15,28 @@
     "storybook": "storybook dev --port 6006",
     "build-storybook": "storybook build"
   },
+  "dependencies": {
+    "@nuxt/ui": "^2.11.1"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.4",
     "@iconify-json/carbon": "^1.1.25",
     "@iconify-json/twemoji": "^1.1.14",
-    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtbase/auth-ui-vue": "^0.3.5",
     "@nuxtjs/storybook": "7.0.0",
+    "@nuxtjs/supabase": "^1.1.4",
     "@pinia/nuxt": "^0.5.1",
+    "@storybook-vue/nuxt": "0.2.0",
+    "@storybook/addon-essentials": "7.5.3",
+    "@storybook/addon-interactions": "7.5.3",
+    "@storybook/addon-links": "7.5.3",
+    "@storybook/blocks": "7.5.3",
+    "@storybook/builder-vite": "7.5.3",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "7.5.3",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.39.0",
+    "@types/node": "^18.17.5",
     "@unocss/eslint-config": "^0.58.0",
     "@unocss/nuxt": "^0.58.0",
     "@vite-pwa/nuxt": "^0.3.5",
@@ -32,19 +47,10 @@
     "eslint-ts-patch": "^8.55.0-1",
     "nuxt": "^3.8.2",
     "pinia": "^2.1.7",
-    "typescript": "^5.3.3",
-    "vue-tsc": "^1.8.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "7.5.3",
-    "@types/node": "^18.17.5",
-    "@storybook/vue3": "7.5.3",
-    "@storybook-vue/nuxt": "0.2.0",
-    "@storybook/addon-links": "7.5.3",
-    "@storybook/builder-vite": "7.5.3",
-    "@storybook/addon-essentials": "7.5.3",
-    "@storybook/addon-interactions": "7.5.3",
-    "@storybook/testing-library": "^0.2.0",
-    "@storybook/blocks": "7.5.3"
+    "typescript": "^5.3.3",
+    "vue-tsc": "^1.8.25"
   }
 }

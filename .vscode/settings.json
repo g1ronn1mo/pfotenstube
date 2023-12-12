@@ -41,5 +41,9 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+  // added because of nuxt-ui suggest it here  https://ui.nuxt.com/getting-started/installation
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }

@@ -6,10 +6,11 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     // own
     '@nuxtjs/storybook',
+    '@nuxtjs/supabase',
+    '@nuxt/ui',
 
   ],
 
@@ -68,5 +69,17 @@ export default defineNuxtConfig({
     url: 'http://localhost:6006',
     storybookRoute: '/__storybook__',
     port: 6006,
+  },
+  supabase: {
+    redirectOptions: {
+      login: '/login',
+      callback: '/confirm',
+      exclude: [],
+    },
+    cookieOptions: {
+      maxAge: 60 * 60 * 8,
+      sameSite: 'lax',
+      secure: true,
+    },
   },
 })
