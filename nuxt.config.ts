@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     // own
     '@nuxtjs/storybook',
     '@nuxtjs/supabase',
-    '@nuxt/ui', 
+    'nuxt-primevue',
 
   ],
 
@@ -18,7 +18,6 @@ export default defineNuxtConfig({
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed
     payloadExtraction: false,
-    inlineSSRStyles: false,
     renderJsonPayloads: true,
     typedPages: true,
   },

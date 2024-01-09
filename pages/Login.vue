@@ -12,7 +12,7 @@ const themeColor = useColorMode()
   <Auth
     :supabase-client="supabaseClient"
 
-    :providers="['google']"
+    :providers="[]"
     :appearance="{
       theme: ThemeSupa,
     }"
