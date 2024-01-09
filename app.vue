@@ -1,4 +1,7 @@
 <script setup lang="ts">
+// This is a Dogsitting website, where People can fill in a form for thier dogs and personal information in a questionnaire.  
+// 
+
 import { appName } from '~/constants'
 
 useHead({

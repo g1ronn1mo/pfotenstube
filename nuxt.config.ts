@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     // own
     '@nuxtjs/storybook',
     '@nuxtjs/supabase',
-    '@nuxt/ui',
+    '@nuxt/ui', 
 
   ],
 
